@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./portfolioCSS/main2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>John's page</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <a class="arrow_btn" id="prev" href="#" ripple="" ripple-color="#666666"><i class="fa fa-angle-left"></i></a>
+  <div class="flip-card">
+    <div class="Card flip-card-inner">
+      <div class="Products flip-card-front">
+        <div class="Product active" product-id="1" product-color="linear-gradient(to right, #5433ff, #20bdff, #a5fecb)">
+          <h1 class="Title">About</h1>
+          <div class="sub">
+            <div class="chapter"><span>01</span></div>
+            <div class="text">
+              Let me <br>
+              introduce <br>
+              my self. <br>
+            </div>
+          </div>
+        </div>
+        <div class="Product" product-id="2" product-color="linear-gradient(to left, #acb6e5, #86fde8)">
+          <h1 class="Title">Skills</h1>
+          <div class="sub">
+            <div class="chapter"><span>02</span></div>
+            <div class="text">
+              What <br>
+              I can <br>
+              do. <br>
+            </div>
+          </div>
+        </div>
+        <div class="Product" product-id="3" product-color="linear-gradient(to left, #ff4e50, #f9d423)">
+          <h1 class="Title">Portfolio</h1>
+          <div class="sub">
+            <div class="chapter"><span>03</span></div>
+            <div class="text">
+              Java <br>
+              Project <br>
+              1. <br>
+            </div>
+          </div>
+        </div>
+        <div class="Product" product-id="4" product-color="linear-gradient(to left, #833ab4, #fd1d1d, #fcb045)">
+          <h1 class="Title">Portfolio</h1>
+          <div class="sub">
+            <div class="chapter"><span>04</span></div>
+            <div class="text">
+              Java <br>
+              Project <br>
+              2. <br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="Backs flip-card-back">
+        <div class="intro Back active">
+          
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="./image/피카츄.png" width="100%">
+                <!-- Social Info-->
+                <div class="social-info"><a href="https://github.com/leejohn0038" target="_blank" ><i class="fa fa-github"></i></a><a href="mailto:leejohn6789@gmail.com"><i class="fa fa-envelope"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6 class="kr">이요한</h6>
+                <p class="designation">Back-End Developer</p>
+              </div>
+            </div>
+            <button class="resume-btn"><a href="https://cuddly-silver-4fe.notion.site/6529af887a814c3997a40ec90ec4eb80" target="_blank">GO TO RESUME</a></button>
+        </div>
+        <div class="skill Back">
+          
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="skills-title pb-5">
+                Back-End
+              </div>
+              <ul class="skills-bar-container">
+                <li>
+                  <div class="progressbar-title">
+                    <h3>Java</h3>
+                    <span class="percent" id="java-pourcent" name="back-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressred" id="progress-java"></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="progressbar-title">
+                    <h3>Spring</h3>
+                    <span class="percent" id="spring-pourcent" name="back-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressblue" id="progress-spring"></span>
+                  </div>
+                </li>
+                
+                <li>
+                  <div class="progressbar-title">
+                    <h3>Tomcat</h3>
+                    <span class="percent" id="tomcat-pourcent" name="back-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progresspurple" id="progress-tomcat"></span>
+                  </div>
+                </li>
+                
+                <li>
+                  <div class="progressbar-title">
+                    <h3>AWS-EC2</h3>
+                    <span class="percent" id="aws-pourcent" name="back-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressorange" id="progress-aws" ></span>
+                  </div>
+                </li>          
+                <li>
+                  <div class="progressbar-title">
+                    <h3>ajax</h3>
+                    <span class="percent" id="ajax-pourcent" name="back-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressgreen" id="progress-ajax"></span>
+                  </div>
+                </li>          
+              </ul>
+            </div>
+            <div class="tab-pane fade front-end" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="skills-title pb-5">
+                Front-End
+              </div>
+              <ul class="skills-bar-container">
+                <li>
+                  <div class="progressbar-title">
+                    <h3>HTML5</h3>
+                    <span class="percent" id="html-pourcent" name="front-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressred" id="progress-html"></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="progressbar-title">
+                    <h3>CSS</h3>
+                    <span class="percent" id="css-pourcent" name="front-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressblue" id="progress-css"></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="progressbar-title">
+                    <h3>Javascript / JQuery</h3>
+                    <span class="percent" id="javascript-pourcent" name="front-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progresspurple" id="progress-javascript"></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="progressbar-title">
+                    <h3>Bootstrap</h3>
+                    <span class="percent" id="bootstrap-pourcent" name="front-end"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressorange" id="progress-bootstrap"></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade etc" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="skills-title pb-5">
+                ETC
+              </div>
+              <ul class="skills-bar-container">
+                <li>
+                  <div class="progressbar-title">
+                    <h3>ORACLE</h3>
+                    <span class="percent" id="oracle-pourcent" name="etc"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressred" id="progress-oracle"></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="progressbar-title">
+                    <h3>Github</h3>
+                    <i class="fa-solid fa-horizontal-rule"></i>
+                    <span class="percent" id="github-pourcent" name="etc"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progressblue" id="progress-github"></span>
+                  </div>
+                </li>
+                <li>
+                  <div class="progressbar-title">
+                    <h3>VS code</h3>
+                    <span class="percent" id="vscode-pourcent" name="etc"></span>
+                  </div>
+                  <div class="bar-container">
+                    <span class="progressbar progresspurple" id="progress-vscode"></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="nav nav-pills mb-3 skill-tab" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="button-63 active back-end" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Back-End</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="button-63 front-end" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Front-End</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="button-63 etc" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">ETC</button>
+            </li>
+          </ul>
+          
+        </div>
+        <div class="port1 Back">
+          <img src="./image/portfolio/포트폴리오1.png" alt="" width="100%">
+          <dl class="description row pt-5">
+            <dt class="col-sm-3">프로젝트명</dt>
+            <dd class="col-sm-9">theGreatestPos</dd>
+            <dt class="col-sm-3">한줄소개</dt>
+            <dd class="col-sm-9">자바 Swing 이용한 마트 포스기 프로그램</dd>
+          
+            <dt class="col-sm-3">팀</dt>
+            <dd class="col-sm-9">
+              박찬호, 이요한(Team Leader), 이정호, 장은철
+            </dd>
+            <dt class="col-sm-3">기술스택</dt>
+            <dd class="col-sm-9">Java, Oracle, Github</dd>
+          
+          </dl>
+          <div class="img-links">
+            <a href="https://github.com/leejohn0038/theGreatestPos" target="_blank" class="pb-3"><img src="./image/github.png" width="5%" alt=""><span>theGreatestPos</span></a>
+            <a href="https://drive.google.com/file/d/1S-hGrORfhISM_T85yHtTKi6TeZnn65NF/view?usp=sharing" target="_blank"><img src="./image/pdf.png" width="5%" alt=""><span>PPT 보러 가기</span></a>
+          </div>
+        </div>
+        <div class="port2 Back">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/portfolio/main.png" class="d-block w-100" alt="메인">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/portfolio/maindark.png" class="d-block w-100" alt="메인다크">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/portfolio/search.png" class="d-block w-100" alt="검색">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/portfolio/map.png" class="d-block w-100" alt="지도">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/portfolio/login.png" class="d-block w-100" alt="로그인">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/portfolio/support.png" class="d-block w-100" alt="고객">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/portfolio/board.png" class="d-block w-100" alt="자유">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/portfolio/manager.png" class="d-block w-100" alt="관리자">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <dl class="description row pt-5">
+            <dt class="col-sm-3">프로젝트명</dt>
+            <dd class="col-sm-9">굳캠핑</dd>
+            <dt class="col-sm-3">한줄소개</dt>
+            <dd class="col-sm-9">더욱 건강한 캠핑라이프를 위한 서비스</dd>
+          
+            <dt class="col-sm-3">팀</dt>
+            <dd class="col-sm-9">
+              이요한(Team Leader), 이정훈, 이정호, 오승환, 장은철, 조원희
+            </dd>
+          
+            <dt class="col-sm-3">기술스택</dt>
+            <dd class="col-sm-9">Java, Spring, Oracle, Tomcat, Ajax, HTML5, CSS, JS, Bootstrap, AWS-EC2, Github</dd>
+          
+            <dt class="col-sm-3 text-truncate">API</dt>
+            <dd class="col-sm-9">카카오톡 로그인, 공공데이터 등 다양한 API를 사용함</dd>
+          </dl>
+          <div class="img-links">
+            <a href="https://github.com/leejohn0038/LastProject" target="_blank" class="pb-3 kr"><img src="./image/github.png" width="5%" alt=""><span>LastProject</span></a>
+            <a href="http://13.124.253.98:8090/SpringProject3/main" target="_blank" class="pb-3 kr"><img src="./image/aws-ec2-logo-png-transparent.png" width="5%" alt=""><span>굳캠핑</span></a>
+            <a href="https://www.miricanvas.com/v/1zyc00" target="_blank" class="kr"><img src="./image/miri.png" width="5%" alt=""><span>PPT 보러 가기</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <a class="arrow_btn" id="next" href="#" ripple="" ripple-color="#666666"><i class="fa fa-angle-right"></i></i></a>
+    </div>
+  <footer>
+    &copy;2022. Lee John. All rights reserved.
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/eaaa5e8907.js" crossorigin="anonymous"></script>
+  <script src="./portfolioJS/main2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
