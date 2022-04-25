@@ -625,7 +625,7 @@ footer {
 }
 .skill-tab {
   position: absolute;
-  top: 70%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, 0);
   flex-wrap: nowrap;
